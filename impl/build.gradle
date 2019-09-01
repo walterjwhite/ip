@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.modules.ip'
+description = 'ip - impl'
+dependencies {
+  compile project(':infrastructure:datastore:api:service')
+}

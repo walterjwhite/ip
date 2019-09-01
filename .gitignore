@@ -1,4 +1,17 @@
+.idea
+*.iml
+*.versionsBackup
 target
+db
+error
+output
+hs_err_pid*.log
+spy.log
+log
+error
+output
+hs_err_pid*.log
+
 *.log
 **/log
 **/*.index
@@ -23,7 +36,3 @@ dependency-reduced-pom.xml
 out
 **/logs
 *.db
-Java/active/intellij-launcher-helper
-
-intellij-launcher-helper
-xmind-launcher-helper

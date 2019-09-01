@@ -5,13 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /** Created by walterjwhite on 11/24/16. */
 public class URLStreamUtil {
-  private static final Logger LOGGER = LoggerFactory.getLogger(URLStreamUtil.class);
-
   public static String getResponse(final String uri) throws Exception {
     try {
       final URLConnection urlConnection = new URL(uri).openConnection();

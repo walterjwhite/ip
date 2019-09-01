@@ -1,14 +1,11 @@
 package com.walterjwhite.ip.impl.service;
 
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+@ToString(doNotUseGetters = true)
 public class PublicIPLookupServiceConfiguration {
   // TODO: make this an enum?
   protected String provider;
-
-  public String getProvider() {
-    return provider;
-  }
-
-  public void setProvider(String provider) {
-    this.provider = provider;
-  }
 }
