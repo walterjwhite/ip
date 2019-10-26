@@ -26,7 +26,7 @@ public class URLStreamUtil {
         return (buffer.toString());
       }
     } catch (IOException e) {
-      throw (e);
+      throw e;
     }
   }
 }
